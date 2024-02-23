@@ -1,5 +1,7 @@
 ## **About me**
-I'm a second year undergraduate student studying Mathematics & Computer Science at UC San Diego. I’m intrigued by ML and AI models and their applications in Quantitative Analysis, I also have an interest in Cryptography and Cybersecurity and its uses in Blockchain Security. I want to gain  knowledge about these areas and more fields in Computer Science and Mathematics. My goal is to create something helpful for everyone that can improve and make everyone's life easier.
+I am a sophomore studying Computer Science at UC San Diego, and I have a personal interest in computer architecture and cybersecurity. I'm all about understanding how computers work from the ground up and keeping them safe from hackers. It's a lot like solving puzzles for me—figuring out the best way to build a system and then making sure it's secure. I spend my days diving into the technical stuff, learning how to outsmart security threats, and building better, stronger systems. 
+
+
 
 ## Experience
 ### 1. UJIMA S&P Lab (Professor Imani Munyaka) Research Assistant
