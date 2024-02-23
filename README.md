@@ -40,11 +40,19 @@ I am a sophomore studying Computer Science at UC San Diego, and I have a persona
 - Shadowed Ksithij Lodha and improved professional communication skills and critical thinking
 
 ## Projects
-### 1. App Developer – Golf Betting Application
-- Used Flutter SDK and Dart to build an application about the Golf Nassau Betting System
-- Used Firebase to build the database management system to store data and for authentication and security
+### 1. App Developer – Virtualis Nutrix
+- Developed a user-friendly mobile app tailored for the elderly, featuring medication schedules, task lists, and personalized reminders.
+- Engineered the app using Flutter and integrated it with Google Firebase for robust backend storage, enhancing overall app performance; Enhanced user experience by     
+  incorporating Google Maps and a web browser, and implemented a secure login system for individual cloud-based data storage
 - Designed the GUI using Flutter’s collection of widgets, working on both the backend and frontend
+- Link
+
+### 2. Mini Research Paper In High School
+- Researched a 4000-word paper titled ‘Finding the relationship between the average and terminal velocity of a parachute by changing the surface area of the canopy and the   
+  height of deployment for a constant mass attached to it’.
+- Link
 
 ## Awards
-* Revelle College Provost Honors: Received Provost Honors based on the quarterly GPA
-* Top 1/5th Of Revelle Student Body: Received the award for being in the top 200 students in Revelle College at UCSD
+* UC San Diego Provost Honors: Received Provost Honors based on the quarterly GPA
+* Awarded the memento – an academic honor awarded to 3 students in the batch based on exceptional performance across academics, community service, extracurricular activities   and student led initiatives at Indus International School Pune
+* Placed in the top 10% in the UCSD BPC programming competition
