@@ -10,22 +10,17 @@ I am a sophomore studying Computer Science at UC San Diego, and I have a persona
 - Worked on the backend integration of the web-app to store and get reasonable insights from the survey
 - Used the insights to contribute to Professor Munyaka’s anti-autistic hate speech detection project
 
-### 2. ITA Workshop App Developer
-- Developed a mobile application using Flutter and Dart for an annual workshop on information technology
-- Worked closely with Professor Alon Orlitsky as part of a two-person team, engaging in frequent communication
-- Redesigned and tested the splash screen and other in-app features using emulators for both Android and iOS
-- Worked on the deployment of the mobile application on the App Store and Play Store after development
+### 2. Software Development Intern - Cumulus Systems, Hitachi India
+- Started the development of a program in C to analyze log reports and find errors in the Measure Analyze Recommend Solve tool, a powerful technology platform with a high-performance analytics engine
+- Regularly met and coordinated with the team for constant feedback and to add additional features
 
-### 3. Undergraduate Instructional Assistant
-- Instructional Assistant working under Professor Quang Bach and Professor Eoin Mackall
-- Grading for MATH 20D (Introduction to Differential Equations)
-- Improved my mathematical skills and programming skills by identifying mistakes and thinking critically
-- Provided constructive feedback to help students understand their mistakes, contributing to their academic growth
-
-### 4. Undergraduate Instructional Assistant
-- Instructional Assistant working under Professor Pratyush Sarkar
-- Grading for MATH10C (Vector Calculus)
-- Promptly and accurately graded weekly homework assignments with detailed feedback
+### 3. Unmanned Aircraft Systems (Sotware Team Member)
+- Supported the team that programmed the code for ‘path-planning’, an activity that determines the path of an aircraft while airborne, using Python and Linux
+- 
+### 4. Web Developer Intern - Pivotal Design
+- Administered 3 cross functional teams comprising of 20 interns’ members from design ideation to final design testing
+- Assisted in facilitation of Motion UI design technology through JavaScript resulting in 30% increase customer appealing rate
+- Collaborated with the internal design development resources to implement scalable front-end templates
 
 ### 5. Data Analyst Intern - Cimcon Software
 - Analyzed sales data using Power BI to extract valuable insights and trends
