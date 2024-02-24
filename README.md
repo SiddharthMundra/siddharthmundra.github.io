@@ -13,9 +13,6 @@ I am a sophomore studying Computer Science at UC San Diego, and I have a persona
 ### 2. Software Development Intern - Cumulus Systems, Hitachi India
 - Started the development of a program in C to analyze log reports and find errors in the Measure Analyze Recommend Solve tool, a powerful technology platform with a high-performance analytics engine
 - Regularly met and coordinated with the team for constant feedback and to add additional features
-
-### 3. Unmanned Aircraft Systems (Sotware Team Member)
-- Supported the team that programmed the code for ‘path-planning’, an activity that determines the path of an aircraft while airborne, using Python and Linux
 - 
 ### 4. Web Developer Intern - Pivotal Design
 - Administered 3 cross functional teams comprising of 20 interns’ members from design ideation to final design testing
@@ -27,12 +24,6 @@ I am a sophomore studying Computer Science at UC San Diego, and I have a persona
 - Developed interactive and visually appealing dashboards to present key performance indicators and sales metrics
 - Automated recurring reports, saving time and increasing efficiency in data reporting
 - Attained real world working experience by working under experienced professionals
-
-### 6. Investment Advising Intern - Forthius Capital
-- Worked with Kshitij Lodha, an experienced investment advisor and learnt about various ways of investing
-- Researched and suggested possible investment opportunities based on profitability and client’s goals
-- Learnt about risks in the stock market and how to assess them
-- Shadowed Ksithij Lodha and improved professional communication skills and critical thinking
 
 ## Projects
 ### 1. App Developer – Virtualis Nutrix
