@@ -1,8 +1,8 @@
 ## **About me**
-I am a sophomore studying Computer Science at UC San Diego, and I have a personal interest in computer architecture and cybersecurity. I am currently a research asistant working under Professor Ryan Kastner at XXXX labs focusing on the topic X. I am proeficent in C, C++, Python, GIT, ARM v6, JavaScript.
+I am a sophomore studying Computer Science at UC San Diego, and I have a personal interest in computer architecture and cybersecurity. I am currently a research assistant working under Professor Ryan Kastner at the KRG lab focusing on the topic of developing efficient neural networks on FPGA's. I am proficient in C, C++, Python, GIT, ARM v6, JAVA.
 
 ## Experience
-### 1. UJIMA S&P Lab (Professor Imani Munyaka) Research Assistant
+### 1. KRG Lab (Professor Ryan Kastner) Research Assistant
 - Developed a web-app for an Implicit Association Test (IAT) to measure an individual's level of bias toward autism
 - Created a prototype on OpenSesame and used Flask to recreate the IAT as a web-app written in Python
 - Worked on the backend integration of the web-app to store and get reasonable insights from the survey
