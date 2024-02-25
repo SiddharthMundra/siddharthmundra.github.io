@@ -9,8 +9,7 @@ I am a sophomore studying Computer Science at UC San Diego, and I have a persona
 - Used the insights to contribute to Professor Munyaka’s anti-autistic hate speech detection project
 
 ### 2. Software Development Intern - Cumulus Systems, Hitachi India
-- Started the development of a program in C to analyze log reports and find errors in the Measure Analyze Recommend Solve tool, a powerful technology platform with a high-  
-  performance analytics engine
+- Started the development of a program in C to analyze log reports and find errors in the Measure Analyze Recommend Solve tool, a powerful technology platform with a high-performance analytics engine
 - Regularly met and coordinated with the team for constant feedback and to add additional features
 
 ### 3. Web Developer Intern - Pivotal Design
