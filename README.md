@@ -1,5 +1,5 @@
 ## **About me**
-I am a sophomore studying Computer Science at UC San Diego, and I have a personal interest in computer architecture and cybersecurity. I am currently a research assistant working under Professor Ryan Kastner at the KRG lab focusing on the topic of developing efficient neural networks on FPGA's. I am proficient in C, C++, Python, GIT, ARM v6, JAVA.
+I am a sophomore studying Computer Science at UC San Diego, and I have a personal interest in computer architecture and cybersecurity. I am currently a research assistant working under Professor Ryan Kastner at the KRG lab focusing on the topic of developing efficient neural networks on FPGA's. I am proficient in C, C++, Python, GIT, ARM v6, JAVA. yes.
 
 ## Experience
 ### 1. KRG Lab (Professor Ryan Kastner) Research Assistant
