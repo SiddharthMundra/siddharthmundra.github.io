@@ -10,25 +10,32 @@ I’m always excited to take on new challenges and collaborate on innovative pro
 
 ## Experience
 ### 1. KRG Lab (Professor Ryan Kastner) Research Assistant
-- Developed a web-app for an Implicit Association Test (IAT) to measure an individual's level of bias toward autism
-- Created a prototype on OpenSesame and used Flask to recreate the IAT as a web-app written in Python
-- Worked on the backend integration of the web-app to store and get reasonable insights from the survey
-- Used the insights to contribute to Professor Munyaka’s anti-autistic hate speech detection project
+- Engineered a 91% accuracy NLP model to verify any Indian government-issued identity.
+- Developed a robust anti-forgery application utilizing computer vision technologies and libraries including DocTR, TensorFlow, Keras.
+- Leveraged ngrok for secure tunneling to ensure safe communication between the API and the script.
+- Conducted comprehensive testing of the application by designing and implementing an API with Postman, employing advanced techniques such as pixel analysis, metadata verification, colol 
+  consistency checks, steganography detection, and noise consistency evaluation.
+
 
 ### 2. Software Development Intern - Cumulus Systems, Hitachi India
-- Started the development of a program in C to analyze log reports and find errors in the Measure Analyze Recommend Solve tool, a powerful technology platform with a high-performance analytics engine
-- Regularly met and coordinated with the team for constant feedback and to add additional features
+- Engineered a 91% accuracy NLP model to verify any Indian government-issued identity.
+- Developed a robust anti-forgery application utilizing computer vision technologies and libraries including DocTR, TensorFlow, Keras.
+- Leveraged ngrok for secure tunneling to ensure safe communication between the API and the script.
+- Conducted comprehensive testing of the application by designing and implementing an API with Postman, employing advanced techniques such as pixel analysis, metadata verification, colol 
+  consistency checks, steganography detection, and noise consistency evaluation.
+
+### 2. Software Development Intern - Cumulus Systems, Hitachi India
+- Automated the analysis of log reports to pinpoint errors within the Measure Analyze Recommend Solve (MARS) tool, a high-performance analytics engine.
+- Ensured high code sustainability and future scalability by utilizing debugging and version control tools (GIT) extensively.
+- Used the POSIX Regular Expressions Library along with Apache POI to write 1000+ lines of code which can read 15,000+ log files, producing detailed MS Excel visualizations identifying trend 
+  irregularities.
+- Leveraged agile methodologies to drive the iterative development process.
+- Contributed to the design and implementation of advanced error detection algorithms, improving the accuracy and efficiency of log analysis by 20% and troubleshooting time by 15%.
 
 ### 3. Web Developer Intern - Pivotal Design
 - Administered 3 cross functional teams comprising of 20 interns’ members from design ideation to final design testing
 - Assisted in facilitation of Motion UI design technology through JavaScript resulting in 30% increase customer appealing rate
 - Collaborated with the internal design development resources to implement scalable front-end templates
-
-### 4. Data Analyst Intern - Cimcon Software
-- Analyzed sales data using Power BI to extract valuable insights and trends
-- Developed interactive and visually appealing dashboards to present key performance indicators and sales metrics
-- Automated recurring reports, saving time and increasing efficiency in data reporting
-- Attained real world working experience by working under experienced professionals
 
 ## Projects
 ### 1. App Developer – Virtualis Nutrix
