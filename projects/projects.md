@@ -1,5 +1,5 @@
 ## Projects
-### 1. SpeedStatAI – Machine Learning Classifier
+### 1. [SpeedStatAI – Machine Learning Classifier](https://github.com/SiddharthMundra/SpeedStatAI)
 *Reason:* This summer, while watching the Belgian GP, I thought to myself - “I wonder how F1 has developed its analytics tool to perfectly predict pitstop laps as well as timings; is it purely based on historical data?”. With a lot of free time on my hands, I decided to try and implement one myself. Using my skills in machine learning and data analysis, I embarked on a project to develop an analytics tool that predicts pitstop strategies. I gathered historical race data, tire degradation patterns, and real-time weather conditions to train my model. The process not only deepened my understanding of F1 analytics but also honed my abilities in data science and algorithm development.
 
 - Developed an optimized algorithm using Pandas for automated data collection from Formula 1 racing databases, for 10,000+ statistics
