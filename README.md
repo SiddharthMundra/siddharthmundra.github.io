@@ -49,7 +49,7 @@ I’m always excited to take on new challenges and collaborate on innovative pro
 - Leveraged agile methodologies to drive the iterative development process.
 - Contributed to the design and implementation of advanced error detection algorithms, improving the accuracy and efficiency of log analysis by 20% and troubleshooting time by 15%.
 
-## Awards
+## Achievements
 * UC San Diego Provost Honors: Received Provost Honors based on the quarterly GPA
 * Awarded the memento – an academic honor awarded to 3 students in the batch based on exceptional performance across academics, community service, extracurricular activities   and student led initiatives at Indus International School Pune
-* Placed in the top 10% in the UCSD BPC programming competition
+* Placed in the top 3 in the UCSD Beginners Programming Competition
