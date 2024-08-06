@@ -34,7 +34,8 @@ I decided to go ahead and create a very easy-to-use app for them; it featured an
 
 
 - Developed a developer-journal; a logger where you can write what you worked on; it is automatically saved 
-- Integrated OpenAI API to paraphrase and enhance the appeal of news headlines, ensuring engaging and dynamic content for daily posting, incorporating error handling and logging for efficient web scraping and image management
-- Employed Python’s schedule library to manage regular execution of news scraping, tweeting, and daily summaries, ensuring timely and consistent updates while maintaining robust tracking of posted content and images to prevent duplication
+- Full-stack web application using HTML, CSS, JS, as well as React
+- Fully operational CI/CD pipeline with E2E testing, dry run testing, Unit testing
+- Employed GIT actions (such as needing approval from leader's before merging and getting code quality review)
 
 
