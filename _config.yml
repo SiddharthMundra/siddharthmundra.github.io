@@ -1,7 +1,7 @@
 title: Siddharth Mundra
 logo: assets/Photo_SidMundra.jpg
 description: >
-  Sophmore at UC San Diego majoring in Computer Science and minoring in Finance
+  Junior at UC San Diego majoring in Computer Science and minoring in Finance
   <br>
   <br>
   <b>Email: smundra@ucsd.edu</b>
@@ -10,13 +10,17 @@ description: >
   <a href="/projects.md"><b>Projects</b></a>
   <br>
   <br>
-  <a href="https://drive.google.com/file/d/1gd8npsWG9SeXYmAm7563CBT1CERumJXy/view?usp=sharing"><b>Resume</a>
+  <br>
+  <br>
+  <a href="/experiences.md"><b>Experience</b></a>
+  <br>
+  <br>
+  <a href="https://drive.google.com/file/d/1gd8npsWG9SeXYmAm7563CBT1CERumJXy/view?usp=sharing"><b>Resume</b></a>
   <br>
   <br>
   <a href="https://www.linkedin.com/in/siddharthmundra04">LinkedIn</a>
   <br>
   <br>
-  <a href="https://stackoverflow.com/users/16408088/siddharth-mundra"><b>Stack Overflow</a>
-  </b>
+  <a href="https://stackoverflow.com/users/16408088/siddharth-mundra"><b>Stack Overflow</b></a>
   <br>
 remote_theme: pages-themes/minimal@v0.2.0
