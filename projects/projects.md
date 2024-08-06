@@ -29,3 +29,12 @@ I decided to go ahead and create a very easy-to-use app for them; it featured an
 - Employed Python’s schedule library to manage regular execution of news scraping, tweeting, and daily summaries, ensuring timely and consistent updates while maintaining robust tracking of posted content and images to prevent duplication
 
 
+### 4. [Developer Journal (logger)](https://github.com/SiddharthMundra/Developer-Journal)
+**Reason:** During Spring 2024, I was made a co-lead for a software engineering class. I was co-leading 11 people; I had to do various tasks such as conduct spring meetings, code review, conduct standup meetings, design the CI/CD pipeline as well as help develop the frontend and backend. It was a pretty fun experience; I learned that software engineering is not just coding, coding is just about 20% of it :). Our project stood out among 35 groups, placing in the top 3 of the class. The success was marked by our website video being showcased during the class presentation.
+
+
+- Developed a developer-journal; a logger where you can write what you worked on; it is automatically saved 
+- Integrated OpenAI API to paraphrase and enhance the appeal of news headlines, ensuring engaging and dynamic content for daily posting, incorporating error handling and logging for efficient web scraping and image management
+- Employed Python’s schedule library to manage regular execution of news scraping, tweeting, and daily summaries, ensuring timely and consistent updates while maintaining robust tracking of posted content and images to prevent duplication
+
+
