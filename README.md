@@ -1,6 +1,10 @@
 ## **About me**
 I'm an undergraduate student at UC San Diego majoring in Computer Science and minoring in Finance with a passion for software development. My experience relies in fields including Web Development, Software Development, Machine Learning, Computer Architecture and App Development. I like figuring out how to save time by automating processes, and creating efficient and scalable solutions.
 
+This past summer, I 
+
+In my free time, I enjoy watching soccer and Formula 1. I love playing cricket, soccer, squash, and badmiton whenever I get a chance. I am also an avid gamer and love playing games like Call of Duty, Fortnite, F1, Rocket League, as well as Grand Theft Auto.
+
 I’m always excited to take on new challenges and collaborate on innovative projects. be it building a new application from scratch, optimizing existing systems, or exploring the latest advancements in technology, I’m dedicated to continuous learning and improvement. Should you have any questions about my projects, feel free to connect with me over email anytime!
 
 
