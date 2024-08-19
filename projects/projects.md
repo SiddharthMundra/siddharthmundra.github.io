@@ -38,4 +38,13 @@ I decided to go ahead and create a very easy-to-use app for them; it featured an
 - Fully operational CI/CD pipeline with E2E testing, dry run testing, Unit testing
 - Employed GIT actions (such as needing approval from leader's before merging and getting code quality review)
 
+### 5. Huffman Encoding Tree (File Compressor)
+**Reason:** Upon unzipping a 3gb file just for it to be 5.6gb, I was intruiged by how file compressing works. Upon some research, I decided to build a basic huffman-encoding compressor to compress text files to see how compressing files really works. I also decided to use this for a class project (hence I cannot show the source code as it would be an AI violation)
+
+- Built a Huffman encoding tree to perform file compression and decompression on file headers
+- Implemented a file compression tool using the Huffman algorithm to reduce storage size without losing information
+- Implemented a file decompression tool using the Huffman algorithm to get back the original file header
+- Used a priority queue to further make the process more efficient
+- Enhanced the efficiency of the compression by using bit-packing (3-bit integers) to store larger numbers in smaller sequences
+
 
