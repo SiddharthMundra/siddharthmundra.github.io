@@ -47,4 +47,12 @@ I decided to go ahead and create a very easy-to-use app for them; it featured an
 - Used a priority queue to further make the process more efficient
 - Enhanced the efficiency of the compression by using bit-packing (3-bit integers) to store larger numbers in smaller sequences
 
+### 6. F1 World-View
+**Reason:** During Fall 2024, I was taking an advance interaction design class; and as a project, had to design something that looks "cool" on react; and since I am interested in F1, I decided to design an interactive map with details of every driver to ever race as well as every circuit to appear along with its winners in the world. For doing this, there was no custom dataset which was matching my requirements; hence I created my own web-scraper to scrape the information, create my own dataset and then link it to the react app. [Link](https://github.com/SiddharthMundra/RaceNation-F1-World-View)
+
+
+- Link to website: [Click](https://poetic-cheesecake-a45473.netlify.app)
+- Used web-scraping techniques to gather data catering to my app
+- 
+
 
