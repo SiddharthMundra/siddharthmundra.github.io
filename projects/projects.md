@@ -1,26 +1,29 @@
 ## Projects
-### 7. SpoilerDetector – Automatic Spoiler Detection in Book Reviews
+### 1. SpoilerDetector – Automatic Spoiler Detection in Book Reviews
 
 **Reason:** As someone who loves reading, I get really frustrated when a book review accidentally includes a spoiler. To tackle this issue, I developed **SpoilerDetector**, a machine learning-based system designed to automatically identify and filter out spoilers in book reviews. This tool enhances the reading experience by allowing users to avoid unintended plot revelations and focus on genuine feedback about the book. Additionally, I have authored a research paper detailing the methodology, experiments, and results of this project. [Read the research paper here](https://link-to-your-paper.com). [Link to repository](https://github.com/SiddharthMundra/RaceNation-F1-World-View)
 
-**Features:**
+- **Utilized** the [Goodreads Book Reviews Dataset](https://www.kaggle.com/datasets/pypiahmad/goodreads-book-reviews?resource=download), which contains over 2.5 million book reviews with detailed annotations, including sentence-level spoiler indicators.
+- **Implemented** multiple baseline models including:
+  - **Keyword-Based Approach:** Utilized predefined spoiler-related keywords to flag potential spoilers.
+  - **Bag of Words (BoW) Model:** Transformed textual data into numerical feature vectors based on word frequency.
+  - **Logistic Regression with TF-IDF Features:** Captured the importance of words relative to the entire dataset for improved classification.
+- **Developed** an advanced **DistilBERT** transformer model for enhanced context-aware spoiler detection, achieving superior performance compared to traditional models.
+- **Addressed** class imbalance by sampling equal numbers of spoiler and non-spoiler reviews.
+- **Employed** regularization techniques such as weight decay and dropout to prevent overfitting.
+- **Optimized** training time using mixed precision training (FP16) and computationally efficient models like DistilBERT.
+- **Focused** on precision, false positive rate, false negative rate, and ROC AUC to accurately assess model performance, ensuring reliable spoiler detection without excessive false alarms.
 
-- **Dataset Utilization:** Leveraged the [Goodreads Book Reviews Dataset](https://www.kaggle.com/datasets/pypiahmad/goodreads-book-reviews?resource=download), which contains over 2.5 million book reviews with detailed annotations, including sentence-level spoiler indicators.
 
-- **Model Development:** 
-  - Implemented multiple baseline models including:
-    - **Keyword-Based Approach:** Utilized predefined spoiler-related keywords to flag potential spoilers.
-    - **Bag of Words (BoW) Model:** Transformed textual data into numerical feature vectors based on word frequency.
-    - **Logistic Regression with TF-IDF Features:** Captured the importance of words relative to the entire dataset for improved classification.
-  - Developed an advanced **DistilBERT** transformer model for enhanced context-aware spoiler detection, achieving superior performance compared to traditional models.
+### 2. Virtualis Nutrix (online nurse)
+**Reason:** It was prime lockdown, and the elderly in my area were facing a challenge. The elderly in India are very dependent on domestic helpers for things like getting medicine on time, getting adequate water in a day, eating food on time, time to sleep. However they were not allowed to come for work during the lockdown. 
 
-- **Performance Optimization:** 
-  - Addressed class imbalance by sampling equal numbers of spoiler and non-spoiler reviews.
-  - Employed regularization techniques such as weight decay and dropout to prevent overfitting.
-  - Optimized training time using mixed precision training (FP16) and computationally efficient models like DistilBERT.
+I decided to go ahead and create a very easy-to-use app for them; it featured an extremely basic UI which is very easy to use, and it has features like setting a medicine reminder, drink water reminders, and integrating the app into the phone’s vanilla calendar as well as clock app so everything would sync perfectly. [Link](https://github.com/SiddharthMundra/Virtualis-Nutrix-Online-Nurse)
 
-- **Evaluation Metrics:** 
-  - Focused on precision, false positive rate, false negative rate, and ROC AUC to accurately assess model performance, ensuring reliable spoiler detection without excessive false alarms.
+- Developed mobile application with Flutter and Dart to assist the elderly in my community during the lockdown using Android Studio
+- Engineered a secure backend using Google Firebase for data storage and real-time data synchronization
+- Ensured user data security by implementing a secure login system for individual cloud-based data storage as well as two factor authentication
+- Established CI/CD pipeline to automate testing and deployments, ensuring code quality with Gitlab
 
 ### 3. QUADspeaker – Twitter Bot
 **Reason:** During the summer of 2025, I kept seeing videos about influencers explaining "passive income" methods to teenagers, and the most common one was posting on twitter/youtube. Having a lot of free time on my hand, I thought to myself why not try it. That is when I decided to create my own twitter bot, try and personalise the news ot attract more viewers and include relevant hashtags as well. [Link](https://github.com/SiddharthMundra/QUADspeaker)
@@ -65,3 +68,4 @@ Using my skills in machine learning and data analysis, I embarked on a project t
 - Trained a KNeighborsClassifier with scikit-learn to predict qualifying positions and race winners for the 2024 season
 - Integrated Django with React to build a dynamic web application that allows users to forecast qualifying results and race outcomes based on the classifier’s predictions.
 - Generated over 500 API endpoints using Django Rest Framework to present predictions for F1 races and qualifying sessions, including weather-related factors.
+![image](https://github.com/user-attachments/assets/216e7dfd-e83d-470b-b962-bee841f0988d)
