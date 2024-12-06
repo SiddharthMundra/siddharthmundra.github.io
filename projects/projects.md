@@ -1,18 +1,18 @@
 ## Projects
 ### 1. SpoilerDetector – Automatic Spoiler Detection in Book Reviews
 
-**Reason:** As someone who loves reading, I get really frustrated when a book review accidentally includes a spoiler. To tackle this issue, I developed **SpoilerDetector**, a machine learning-based system designed to automatically identify and filter out spoilers in book reviews. This tool enhances the reading experience by allowing users to avoid unintended plot revelations and focus on genuine feedback about the book. Additionally, I have authored a research paper detailing the methodology, experiments, and results of this project. [Read the research paper here](https://drive.google.com/file/d/1X81NztwRfwClCkgrcK9Y3t8zylCXeLUS/view?usp=sharing). [Link](https://github.com/SiddharthMundra/SpoilerShield/tree/main)
+**Reason:** As someone who loves reading, I get really frustrated when a book review accidentally includes a spoiler. To tackle this issue, I developed SpoilerDetector, a machine learning-based system designed to automatically identify and filter out spoilers in book reviews. This tool enhances the reading experience by allowing users to avoid unintended plot revelations and focus on genuine feedback about the book. Additionally, I have authored a research paper detailing the methodology, experiments, and results of this project. [Read the research paper here](https://drive.google.com/file/d/1X81NztwRfwClCkgrcK9Y3t8zylCXeLUS/view?usp=sharing). [Link](https://github.com/SiddharthMundra/SpoilerShield/tree/main)
 
-- **Utilized** the [Goodreads Book Reviews Dataset](https://www.kaggle.com/datasets/pypiahmad/goodreads-book-reviews?resource=download), which contains over 2.5 million book reviews with detailed annotations, including sentence-level spoiler indicators.
-- **Implemented** multiple baseline models including:
-  - **Keyword-Based Approach:** Utilized predefined spoiler-related keywords to flag potential spoilers.
-  - **Bag of Words (BoW) Model:** Transformed textual data into numerical feature vectors based on word frequency.
-  - **Logistic Regression with TF-IDF Features:** Captured the importance of words relative to the entire dataset for improved classification.
-- **Developed** an advanced **DistilBERT** transformer model for enhanced context-aware spoiler detection, achieving superior performance compared to traditional models.
-- **Addressed** class imbalance by sampling equal numbers of spoiler and non-spoiler reviews.
-- **Employed** regularization techniques such as weight decay and dropout to prevent overfitting.
-- **Optimized** training time using mixed precision training (FP16) and computationally efficient models like DistilBERT.
-- **Focused** on precision, false positive rate, false negative rate, and ROC AUC to accurately assess model performance, ensuring reliable spoiler detection without excessive false alarms.
+- Utilized the [Goodreads Book Reviews Dataset](https://www.kaggle.com/datasets/pypiahmad/goodreads-book-reviews?resource=download), which contains over 2.5 million book reviews with detailed annotations, including sentence-level spoiler indicators.
+- Implemented multiple baseline models including:
+  - Keyword-Based Approach: Utilized predefined spoiler-related keywords to flag potential spoilers.
+  - Bag of Words (BoW) Model: Transformed textual data into numerical feature vectors based on word frequency.
+  - Logistic Regression with TF-IDF Features: Captured the importance of words relative to the entire dataset for improved classification.
+- Developed an advanced DistilBERT transformer model for enhanced context-aware spoiler detection, achieving superior performance compared to traditional models.
+- Addressed class imbalance by sampling equal numbers of spoiler and non-spoiler reviews.
+- Employed regularization techniques such as weight decay and dropout to prevent overfitting.
+- Optimized training time using mixed precision training (FP16) and computationally efficient models like DistilBERT.
+- Focused on precision, false positive rate, false negative rate, and ROC AUC to accurately assess model performance, ensuring reliable spoiler detection without excessive false alarms.
 
 
 ### 2. Virtualis Nutrix (online nurse)
