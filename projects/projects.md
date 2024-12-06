@@ -1,5 +1,5 @@
 ## Projects
-###7. SpoilerDetector – Automatic Spoiler Detection in Book Reviews
+### 7. SpoilerDetector – Automatic Spoiler Detection in Book Reviews
 
 **Reason:** As someone who loves reading, I get really frustrated when a book review accidentally includes a spoiler. To tackle this issue, I developed **SpoilerDetector**, a machine learning-based system designed to automatically identify and filter out spoilers in book reviews. This tool enhances the reading experience by allowing users to avoid unintended plot revelations and focus on genuine feedback about the book. Additionally, I have authored a research paper detailing the methodology, experiments, and results of this project. [Read the research paper here](https://link-to-your-paper.com). [Link to repository](https://github.com/SiddharthMundra/RaceNation-F1-World-View)
 
