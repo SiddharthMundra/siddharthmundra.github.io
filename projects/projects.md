@@ -57,15 +57,3 @@ I decided to go ahead and create a very easy-to-use app for them; it featured an
 
 - Link to website: [Click](https://poetic-cheesecake-a45473.netlify.app)
 - Used web-scraping techniques to gather data catering to my app
-
-
-### 7. SpeedStatAI – Machine Learning Classifier
-**Reason:** This summer, while watching the Belgian GP, I thought to myself - “I wonder how F1 has developed its analytics tool to perfectly predict pitstop laps as well as timings; is it purely based on historical data?”. With a lot of free time on my hands, I decided to try and implement one myself. 
-
-Using my skills in machine learning and data analysis, I embarked on a project to develop an analytics tool that predicts pitstop strategies. I gathered historical race data, tire degradation patterns, and real-time weather conditions to train my model. The process not only deepened my understanding of F1 analytics but also honed my abilities in data science and algorithm development. [Link](https://github.com/SiddharthMundra/SpeedStatAI)
-
-- Developed an optimized algorithm using Pandas for automated data collection from Formula 1 racing databases, for 10,000+ statistics
-- Trained a KNeighborsClassifier with scikit-learn to predict qualifying positions and race winners for the 2024 season
-- Integrated Django with React to build a dynamic web application that allows users to forecast qualifying results and race outcomes based on the classifier’s predictions.
-- Generated over 500 API endpoints using Django Rest Framework to present predictions for F1 races and qualifying sessions, including weather-related factors.
-![image](https://github.com/user-attachments/assets/216e7dfd-e83d-470b-b962-bee841f0988d)
