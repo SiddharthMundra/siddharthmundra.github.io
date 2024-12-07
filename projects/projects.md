@@ -11,7 +11,6 @@
 - Developed an advanced DistilBERT transformer model for enhanced context-aware spoiler detection, achieving superior performance compared to traditional models.
 - Addressed class imbalance by sampling equal numbers of spoiler and non-spoiler reviews.
 - Employed regularization techniques such as weight decay and dropout to prevent overfitting.
-- Optimized training time using mixed precision training (FP16) and computationally efficient models like DistilBERT.
 - Focused on precision, false positive rate, false negative rate, and ROC AUC to accurately assess model performance, ensuring reliable spoiler detection without excessive false alarms.
 
 
