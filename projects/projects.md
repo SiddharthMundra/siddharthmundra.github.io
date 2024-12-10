@@ -1,7 +1,7 @@
 ## Projects
 ### 1. SpoilerDetector – Automatic Spoiler Detection in Book Reviews (Machine Learning)
 
-**Reason:** As someone who loves reading, I get really frustrated when a book review accidentally includes a spoiler. To tackle this issue, I developed SpoilerDetector, a machine learning-based system designed to automatically identify and filter out spoilers in book reviews. This tool enhances the reading experience by allowing users to avoid unintended plot revelations and focus on genuine feedback about the book. Additionally, I have authored a research paper detailing the methodology, experiments, and results of this project. [Read the research paper here](https://drive.google.com/file/d/1X81NztwRfwClCkgrcK9Y3t8zylCXeLUS/view?usp=sharing). [Link](https://github.com/SiddharthMundra/SpoilerShield/tree/main)
+**Reason:** As someone who loves reading, I get really frustrated when a book review accidentally includes a spoiler. To tackle this issue, I developed SpoilerDetector, a machine learning-based system designed to automatically identify and filter out spoilers in book reviews. This tool enhances the reading experience by allowing users to avoid unintended plot revelations and focus on genuine feedback about the book. Additionally, I have authored a research paper detailing the methodology, experiments, and results of this project. [Read the paper here](https://drive.google.com/file/d/1X81NztwRfwClCkgrcK9Y3t8zylCXeLUS/view?usp=sharing). [Link](https://github.com/SiddharthMundra/SpoilerShield/tree/main)
 
 - Utilized the [Goodreads Book Reviews Dataset](https://www.kaggle.com/datasets/pypiahmad/goodreads-book-reviews?resource=download), which contains over 2.5 million book reviews with detailed annotations, including sentence-level spoiler indicators.
 - Implemented multiple baseline models including:
@@ -13,8 +13,14 @@
 - Employed regularization techniques such as weight decay and dropout to prevent overfitting.
 - Focused on precision, false positive rate, false negative rate, and ROC AUC to accurately assess model performance, ensuring reliable spoiler detection without excessive false alarms.
 
+### 2. QUADspeaker – Twitter Bot (Web Scraping + Machine Learning)
+**Reason:** During the summer of 2025, I kept seeing videos about influencers explaining "passive income" methods to teenagers, and the most common one was posting on twitter/youtube. Having a lot of free time on my hand, I thought to myself why not try it. That is when I decided to create my own twitter bot, try and personalise the news ot attract more viewers and include relevant hashtags as well. [Link](https://github.com/SiddharthMundra/QUADspeaker)
 
-### 2. Virtualis Nutrix - Online Nurse (App Development)
+- Developed a Twitter bot using the Tweepy API to automatically post the latest news stories from four sources, including CNN, BBC and Al-Jazeera; posting 50 times a day with tailored, user-engaging content
+- Integrated OpenAI API to paraphrase and enhance the appeal of news headlines, ensuring engaging and dynamic content for daily posting, incorporating error handling and logging for efficient web scraping and image management
+- Employed Python’s schedule library to manage regular execution of news scraping, tweeting, and daily summaries, ensuring timely and consistent updates while maintaining robust tracking of posted content and images to prevent duplication
+
+### 3. Virtualis Nutrix - Online Nurse (App Development)
 **Reason:** It was prime lockdown, and the elderly in my area were facing a challenge. The elderly in India are very dependent on domestic helpers for things like getting medicine on time, getting adequate water in a day, eating food on time, time to sleep. However they were not allowed to come for work during the lockdown. 
 
 I decided to go ahead and create a very easy-to-use app for them; it featured an extremely basic UI which is very easy to use, and it has features like setting a medicine reminder, drink water reminders, and integrating the app into the phone’s vanilla calendar as well as clock app so everything would sync perfectly. [Link](https://github.com/SiddharthMundra/Virtualis-Nutrix-Online-Nurse)
@@ -23,13 +29,6 @@ I decided to go ahead and create a very easy-to-use app for them; it featured an
 - Engineered a secure backend using Google Firebase for data storage and real-time data synchronization
 - Ensured user data security by implementing a secure login system for individual cloud-based data storage as well as two factor authentication
 - Established CI/CD pipeline to automate testing and deployments, ensuring code quality with Gitlab
-
-### 3. QUADspeaker – Twitter Bot (Web Scraping + Machine Learning)
-**Reason:** During the summer of 2025, I kept seeing videos about influencers explaining "passive income" methods to teenagers, and the most common one was posting on twitter/youtube. Having a lot of free time on my hand, I thought to myself why not try it. That is when I decided to create my own twitter bot, try and personalise the news ot attract more viewers and include relevant hashtags as well. [Link](https://github.com/SiddharthMundra/QUADspeaker)
-
-- Developed a Twitter bot using the Tweepy API to automatically post the latest news stories from four sources, including CNN, BBC and Al-Jazeera; posting 50 times a day with tailored, user-engaging content
-- Integrated OpenAI API to paraphrase and enhance the appeal of news headlines, ensuring engaging and dynamic content for daily posting, incorporating error handling and logging for efficient web scraping and image management
-- Employed Python’s schedule library to manage regular execution of news scraping, tweeting, and daily summaries, ensuring timely and consistent updates while maintaining robust tracking of posted content and images to prevent duplication
 
 
 ### 4. Developer Journal - Developer Logger (Web Development)
