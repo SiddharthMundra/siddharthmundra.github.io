@@ -21,16 +21,7 @@
 - Employed Python’s schedule library to manage regular execution of news scraping, tweeting, and daily summaries, ensuring timely and consistent updates while maintaining robust tracking of posted content and images to prevent duplication
 
 
-
-### 8. F1 World-View (Web Development)
-**Reason:** During Fall 2024, I was taking an advance interaction design class; and as a project, had to design something that looks "cool" on react; and since I am interested in F1, I decided to design an interactive map with details of every driver to ever race as well as every circuit to appear along with its winners in the world. For doing this, there was no custom dataset which was matching my requirements; hence I created my own web-scraper to scrape the information, create my own dataset and then link it to the react app. [Link](https://github.com/SiddharthMundra/RaceNation-F1-World-View)
-
-
-- Link to website: [Click](https://poetic-cheesecake-a45473.netlify.app)
-- Used web-scraping techniques to gather data catering to my app
-
-
-### 4. AI Powered Recipe App
+### 3. AI Powered Recipe App
 **Reason:** As a college student, I used to live on leftovers all the time. One night, I had opened the fridge and was looking to get together some ingrediants to cook. Then, I wondered - what if I could create my own app where you enter what leftovers you have and it would spit out a few recipes you can cook based on a few selections! I later on sat and coded the app for iOS in Xcode, and I included microphone based prompts as well as a backend SQL database too!
 
 - Developed an AI-powered recipe app using Swift in Xcode using the OpenAI API to deliver tailored recipes and DALL-E-enhanced image
@@ -40,7 +31,20 @@ ensuring real-time responsiveness and efficient RESTful communication between th
 - Implemented a robust, secure, and scalable user management system, integrating a SQL database for persistent storage of user
 histories, profiles, and preferences, enabling a personalized, data-driven experience
 
-### 3. Virtualis Nutrix - Online Nurse (App Development)
+### 4. Neural Composer – Symbolic and Continuous Music Generation (Machine Learning & Audio Synthesis)
+
+**Reason:** I’ve always been fascinated by how music and machine learning can intersect, so for this project I wanted to see if I could teach a model to compose its own music. I decided to take on two tasks — symbolic unconditioned generation (MIDI generation from scratch) and continuous conditioned generation (turning MIDI into real-sounding audio). I wanted to understand the entire pipeline: from abstract music notation all the way to realistic audio playback. Both tasks were super fun and challenging, and I learned a lot about training sequence models and neural vocoders.  
+[Link](#)
+
+- I used the [MAESTRO dataset](https://magenta.tensorflow.org/datasets/maestro), which contains thousands of aligned piano MIDI files and audio recordings. I converted each MIDI file into an integer sequence of notes and rests, quantized to consistent time intervals.
+- I used fixed time steps and teacher forcing to train the model. Preprocessing was tedious — handling overlaps, trimming silence, and aligning durations — but it helped a lot with stability.
+- For continuous conditioned generation, I built a pipeline that turns MIDI into Mel spectrograms, then used a U-Net decoder to synthesize audio. It’s a simple vocoder setup, but really fun to see in action.
+- I evaluated symbolic output using token accuracy and perplexity; for audio, I used spectrogram loss and manual listening to check realism and structure.
+- I applied cosine learning rate decay, dropout, and gradient clipping to stabilize training. Batch sizes were small due to memory constraints
+- In the end, both outputs sounded cohesive and musical. Not commercial-ready, but definitely proof that ML can create expressive, structured music.
+
+
+### 5. Virtualis Nutrix - Online Nurse (App Development)
 **Reason:** It was prime lockdown, and the elderly in my area were facing a challenge. The elderly in India are very dependent on domestic helpers for things like getting medicine on time, getting adequate water in a day, eating food on time, time to sleep. However they were not allowed to come for work during the lockdown. 
 
 I decided to go ahead and create a very easy-to-use app for them; it featured an extremely basic UI which is very easy to use, and it has features like setting a medicine reminder, drink water reminders, and integrating the app into the phone’s vanilla calendar as well as clock app so everything would sync perfectly. [Link](https://github.com/SiddharthMundra/Virtualis-Nutrix-Online-Nurse)
@@ -51,7 +55,7 @@ I decided to go ahead and create a very easy-to-use app for them; it featured an
 - Established CI/CD pipeline to automate testing and deployments, ensuring code quality with Gitlab
 
 
-### 5. Developer Journal - Developer Logger (Web Development)
+### 6. Developer Journal - Developer Logger (Web Development)
 **Reason:** During Spring 2024, I was made a co-lead for a software engineering class. I was co-leading 11 people; I had to do various tasks such as conduct spring meetings, code review, conduct standup meetings, design the CI/CD pipeline as well as help develop the frontend and backend. It was a pretty fun experience; I learned that software engineering is not just coding, coding is just about 20% of it :). Our project stood out among 35 groups, placing in the top 3 of the class. The success was marked by our website video being showcased during the class presentation. [Link](https://github.com/SiddharthMundra/Developer-Journal)
 
 
@@ -60,7 +64,7 @@ I decided to go ahead and create a very easy-to-use app for them; it featured an
 - Fully operational CI/CD pipeline with E2E testing, dry run testing, Unit testing
 - Employed GIT actions (such as needing approval from leader's before merging and getting code quality review)
 
-### 6. Autonomous Robotics Car Project 
+### 7. Autonomous Robotics Car Project 
 **Reason:** During Winter 2024, I had taken an autonomous vehicles class, in which we had to use ROS2, Linux, and a lot of other libraries to program a self-driving car on the NVIDIA Jetson Nano with the help of a camera as well as a lidar. For our final project, we decided to implement V-SLAM (Visual Simultaneous Localization and Mapping). We did this with the help of DepthAI SDK as well as SpectacularAI SDK.
 
 - Built a self-driving robotic car using NVIDIA Jetson, DepthAI Oak-D Pro camera, and LiDAR sensors, integrating with ROS 2 for real-time
@@ -70,7 +74,7 @@ implemented PID controllers for accurate steering and throttle control.
 - Integrated visual SLAM (vSLAM) using RTAB-Map with DepthAI to enable real-time mapping and autonomous navigation in both
 structured indoor and unstructured outdoor environment
 
-### 7. Huffman Encoding Tree - File Compressor (Advanced Data Structures)
+### 8. Huffman Encoding Tree - File Compressor (Advanced Data Structures)
 **Reason:** Upon unzipping a 3gb file just for it to be 5.6gb, I was intruiged by how file compressing works. Upon some research, I decided to build a basic huffman-encoding compressor to compress text files to see how compressing files really works. I also decided to use this for a class project (hence I cannot show the source code as it would be an AI violation)
 
 - Built a Huffman encoding tree to perform file compression and decompression on file headers
@@ -78,3 +82,11 @@ structured indoor and unstructured outdoor environment
 - Implemented a file decompression tool using the Huffman algorithm to get back the original file header
 - Used a priority queue to further make the process more efficient
 - Enhanced the efficiency of the compression by using bit-packing (3-bit integers) to store larger numbers in smaller sequences
+
+
+### 9. F1 World-View (Web Development)
+**Reason:** During Fall 2024, I was taking an advance interaction design class; and as a project, had to design something that looks "cool" on react; and since I am interested in F1, I decided to design an interactive map with details of every driver to ever race as well as every circuit to appear along with its winners in the world. For doing this, there was no custom dataset which was matching my requirements; hence I created my own web-scraper to scrape the information, create my own dataset and then link it to the react app. [Link](https://github.com/SiddharthMundra/RaceNation-F1-World-View)
+
+
+- Link to website: [Click](https://poetic-cheesecake-a45473.netlify.app)
+- Used web-scraping techniques to gather data catering to my app
