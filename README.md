@@ -3,7 +3,7 @@ I'm an undergraduate student at UC San Diego majoring in Computer Science and mi
 
 I am currently working at two startups; AiSEQ and Butterflo. The former being in healthcare and the latter being in the real-estate industry. I am helping them build their ML models and also am designing data extraction pipilines through web-scraping techniques.
 
-Some of the relevant coursework I have taken includes Safety in Bitcoin, Natural Language Processing, Reccomender Systems, ML in Music, Operating Systems, Design of Algorithms and Business Finance.
+Some of the relevant coursework I have taken includes Safety in Bitcoin, Natural Language Processing, Reccomender Systems, Machine Learning in Music, Operating Systems, Design of Algorithms and Data Center Systems.
 
 In my free time, I enjoy watching Formula 1 and playing videogames. I’m always excited to take on new challenges and collaborate on innovative projects. Be it building a new application from scratch, optimizing existing systems, or researching about the latest advancements in technology, I’m dedicated to continuous learning and improvement. The source code to all my projects can be found on my github profile. Should you have any questions about my projects, feel free to connect with me over email anytime!
 

@@ -31,16 +31,19 @@ ensuring real-time responsiveness and efficient RESTful communication between th
 - Implemented a robust, secure, and scalable user management system, integrating a SQL database for persistent storage of user
 histories, profiles, and preferences, enabling a personalized, data-driven experience
 
-### 4. Neural Composer – Symbolic and Continuous Music Generation (Machine Learning & Audio Synthesis)
+### 4. Neural Composer – Symbolic Unconditioned Music Generation
 
-**Reason:** I’ve always been fascinated by how music and machine learning can intersect, so for this project I wanted to see if I could teach a model to compose its own music. I decided to take on two tasks — symbolic unconditioned generation (MIDI generation from scratch) and continuous conditioned generation (turning MIDI into real-sounding audio). I wanted to understand the entire pipeline: from abstract music notation all the way to realistic audio playback. Both tasks were super fun and challenging, and I learned a lot about training sequence models and neural vocoders.  
-[Link](#)
+**Reason:** I’ve always been curious about letting a model learn musical structure from raw MIDI. For Task 1, I focused on symbolic, unconditioned generation: training a Transformer to model and sample from a distribution of folk tunes. I wanted to see how well a decoder‐only architecture could learn the Nottingham MIDI dataset and generate coherent new melodies from scratch.  
 
-- I used the [MAESTRO dataset](https://magenta.tensorflow.org/datasets/maestro), which contains thousands of aligned piano MIDI files and audio recordings. I converted each MIDI file into an integer sequence of notes and rests, quantized to consistent time intervals.
-- I used fixed time steps and teacher forcing to train the model. Preprocessing was tedious — handling overlaps, trimming silence, and aligning durations — but it helped a lot with stability.
-- For continuous conditioned generation, I built a pipeline that turns MIDI into Mel spectrograms, then used a U-Net decoder to synthesize audio. It’s a simple vocoder setup, but really fun to see in action.
-- I evaluated symbolic output using token accuracy and perplexity; for audio, I used spectrogram loss and manual listening to check realism and structure.
-- I applied cosine learning rate decay, dropout, and gradient clipping to stabilize training. Batch sizes were small due to memory constraints
+[Link to Repository](https://github.com/yourusername/neural-composer)  
+
+- I used the [Nottingham Dataset](https://ifdo.ca/~seymour/nottingham/nottingham.html), which contains over 1,000 folk‐tune MIDI files. Each file was converted into an integer token sequence of note‐on, note‐off, velocity, and time‐shift events, using a 50 ms quantization grid.  
+- Preprocessing involved reading each MIDI with PrettyMIDI, extracting all note on/off events, sorting by timestamp, inserting time‐shift tokens, and binning velocities into 64 discrete levels. I filtered out any sequences shorter than 32 tokens.  
+- I implemented a custom `MIDIDS` PyTorch Dataset that tokenizes up to 1,000 MIDI files, stores their lengths for EDA, and provides a collate function to pad variable‐length sequences. After tokenization, I split the data into 80 % train, 10 % validation, and 10 % test (reproducible via a fixed random seed).  
+- For the main model, I built a 6‐layer Transformer decoder (512‐dim embeddings, 8 heads, rotary positional embeddings) using x‐transformers. I trained for 15 epochs with cross‐entropy loss (ignoring PAD tokens), AdamW optimizer (lr=3e-4), cosine learning‐rate decay, dropout, and gradient clipping.  
+- The Transformer achieved ~95 % token‐level accuracy on training data and ~90 % on validation/test splits, significantly outperforming the unigram baseline. Loss curves and accuracy tables are displayed in the notebook.  
+- To generate new music, I used nucleus (top-p) sampling with temperature=0.9. I sampled up to ~60 seconds by accumulating time‐shift tokens until the target duration was reached (or EOS). Three MIDI samples were generated (which can be found on the repo; give it a play!). 
+- I decoded each token sequence back to a MIDI file using PrettyMIDI and inspected the results by listening. The generated melodies exhibit coherent phrasing, plausible rhythm, and novel motifs—proof that a relatively small Transformer can capture folk‐tune structure.  
 - In the end, both outputs sounded cohesive and musical. Not commercial-ready, but definitely proof that ML can create expressive, structured music.
 
 
