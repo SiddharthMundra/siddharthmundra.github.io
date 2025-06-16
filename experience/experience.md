@@ -1,13 +1,18 @@
 ## Experience
-### 1. Software and Machine Learning Intern - Butterflo (stealth mode startup)								
+
+<!-- ### 1. Machine Learning Intern - Geocon							
+- Built a scalable real estate news  -->
+
+
+### 2. Software and Machine Learning Intern - Butterflo (stealth mode startup)								
 - Built a scalable real estate news aggregation system using SerpAPI, BeautifulSoup, and cron jobs to scrape, clean, and store thousands of news headlines daily into a CosmosDB NoSQL database, supporting downstream analysis and trend detection.
 - Engineered a CLIP-based multimodal classification model to evaluate home images for indicators of property condition (e.g., modern vs outdated interiors) and urbanity (e.g., dense cityscape vs rural background). The model helped automatically tag listings with visual insights for investors.
 - Scraped, parsed, and de-duplicated over 3,000 NARPM property managers and agents across the U.S., building a unified profile per agent with extracted metrics like portfolio size, years of experience, and regional expertise.
 - Created a Python-based CLI tool that lets users enter a city and returns the top-ranked realtors based on a weighted score combining number of properties (“doors”) and experience, enabling data-backed recommendations for potential clients.
 
 
-### 2. Machine Learning Intern - AISeq   								
-- Developing a machine learning model to detect Alzheimer’s disease from genomic sequence data using feature engineering and supervised learning techniques
+<!-- ### 2. Machine Learning Intern - AISeq   								
+- Developing a machine learning model to detect Alzheimer’s disease from genomic sequence data using feature engineering and supervised learning techniques -->
 
 ### 3. Machine Learning Intern - Fintaar AI    								
 - Engineered a 91% accuracy NLP model to verify any Indian government-issued identity.
