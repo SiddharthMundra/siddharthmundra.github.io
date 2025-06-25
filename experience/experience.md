@@ -4,7 +4,6 @@
 - Developing a Retrieval-Augmented Generation (RAG) system to enable fast, AI-powered search across 2TB+ of legacy project and contract data
 - Built a custom validation pipeline using the OpenAI API that checks whether contract wording matches required criteria, helping eliminate human error and manual review
 - Automated the entire budget reconciliation workflow by integrating BST (Geocon’s accounting/project tracking software) with Google Sheets
-- 
 
 
 ### 2. Software and Machine Learning Intern - Butterflo (stealth mode startup)								
