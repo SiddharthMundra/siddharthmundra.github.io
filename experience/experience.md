@@ -13,9 +13,6 @@
 - Created a Python-based CLI tool that lets users enter a city and returns the top-ranked realtors based on a weighted score combining number of properties (“doors”) and experience, enabling data-backed recommendations for potential clients.
 
 
-<!-- ### 2. Machine Learning Intern - AISeq   								
-- Developing a machine learning model to detect Alzheimer’s disease from genomic sequence data using feature engineering and supervised learning techniques -->
-
 ### 3. Machine Learning Intern - Fintaar AI    								
 - Engineered a 91% accuracy NLP model to verify any Indian government-issued identity.
 - Developed a robust anti-forgery application utilizing computer vision technologies and libraries including DocTR, TensorFlow, Keras.
