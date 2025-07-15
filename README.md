@@ -1,5 +1,5 @@
 ## **About me**
-I'm an undergraduate student at UC San Diego majoring in Computer Science and minoring in Finance with a passion for Fintech and Real Estate. My experience relies in Machine Learning, Software Engineering and App Development. I like figuring out how to save time by automating processes, and creating efficient and scalable solutions.
+I'm an undergraduate student at UC San Diego majoring in Computer Science and minoring in Finance with a passion for Fintech and Real Estate. My experience relies in Machine Learning, Prompt Engineering, Software Engineering and App Development. I like figuring out how to save time by automating processes, and creating efficient and scalable solutions.
 
 Currently, I’m working at a stealth-mode real estate startup, where I’m helping build machine learning models and designing data extraction pipelines through web-scraping techniques. This summer, I’ll be joining Geocon in San Diego as a full-time intern, where I’ll be developing ML models to support the company’s ongoing projects and exploring opportunities to automate manual processes
 
