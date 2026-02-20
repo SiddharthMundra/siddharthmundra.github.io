@@ -1,9 +1,11 @@
 ## Experience
 
-### 1. Machine Learning Intern - Geocon							
-- Developing a Retrieval-Augmented Generation (RAG) system to enable fast, AI-powered search across 2TB+ of legacy project and contract data
-- Built a custom validation pipeline using the OpenAI API that checks whether contract wording matches required criteria, helping eliminate human error and manual review
-- Automated the entire budget reconciliation workflow by integrating BST (Geocon’s accounting/project tracking software) with Google Sheets
+### 1. Junior Data and Automation Engineer - Geocon							
+- Architected and launched GeoGPT, a production RAG system integrating LLMs, vector-based retrieval over
+SharePoint data, and secure authentication, serving 100+ employees with low-latency enterprise knowledge access
+- Constructed a pipeline combining Azure OCR and GPT-4o for clause-level semantic comparison across 10k+
+contracts, reducing manual review time by 65%.
+- Automated business processes using Power Automate; built Power BI dashboards to visualize performance metrics
 
 
 ### 2. Software and Machine Learning Intern - Butterflo (stealth mode startup)								
