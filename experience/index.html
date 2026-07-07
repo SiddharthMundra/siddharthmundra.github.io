@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>experience / siddharth mundra</title>
+  <script>
+    (function () {
+      try {
+        const storedTheme = localStorage.getItem('siddharthmundra-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', storedTheme || (prefersDark ? 'dark' : 'light'));
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../copy-email.js"></script>
+  <script defer src="../site.js"></script>
+</head>
+<body class="lowercase-page writing-page">
+  <div class="container writing-container">
+    <header>
+      <div class="identity">
+        <h1><a class="site-title" href="../">siddharth mundra</a></h1>
+      </div>
+      <nav class="header-links" aria-label="site links">
+        <a class="header-meta-link" href="../projects/">projects</a>
+        <a class="header-meta-link" href="../experience/">experience</a>
+        <a class="header-meta-link" href="https://drive.google.com/file/d/1jhIeRP569TJj_PVuRLF6QhxVRokpYr8p/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
+        <a class="header-meta-link" href="https://github.com/SiddharthMundra" target="_blank" rel="noopener noreferrer">gh</a>
+        <a class="header-meta-link" href="https://www.linkedin.com/in/siddharthmundra04" target="_blank" rel="noopener noreferrer">li</a>
+        <a class="header-meta-link" href="https://stackoverflow.com/users/16408088/siddharth-mundra" target="_blank" rel="noopener noreferrer">so</a>
+        <button class="header-meta-link email-copy" type="button" data-copy-email="smundra@ucsd.edu" data-copy-label="email" data-copy-success-label="copied!" data-copy-success-aria-label="email copied to clipboard" aria-label="copy email address" aria-live="polite">email</button>
+      </nav>
+    </header>
+    <main>
+      <section class="writing-index markdown-content">
+        <h2 class="project-title writing-heading">experience</h2>
+
+        <h3 class="essay-section-title">1. junior data and automation engineer — geocon</h3>
+        <ul class="phase-list">
+          <li>architected and launched geogpt, a production rag system integrating llms, vector-based retrieval over sharepoint data, and secure authentication, serving 100+ employees.</li>
+          <li>built a pipeline combining azure ocr and gpt-4o for clause-level semantic comparison across 10k+ contracts, reducing manual review time by 65%.</li>
+          <li>automated business processes using power automate; built power bi dashboards to visualize performance metrics.</li>
+        </ul>
+
+        <h3 class="essay-section-title">2. software and machine learning intern — butterflo</h3>
+        <p class="essay-note">stealth mode startup</p>
+        <ul class="phase-list">
+          <li>built a scalable real estate news aggregation system using serpapi, beautifulsoup, and cron jobs into cosmosdb.</li>
+          <li>engineered a clip-based multimodal classification model to evaluate home images for property condition and urbanity.</li>
+          <li>scraped and de-duplicated 3,000+ narpm property managers across the u.s. with unified agent profiles.</li>
+          <li>created a python cli tool ranking realtors by portfolio size and experience for data-backed recommendations.</li>
+        </ul>
+
+        <h3 class="essay-section-title">3. machine learning intern — fintaar ai</h3>
+        <ul class="phase-list">
+          <li>engineered a 91% accuracy nlp model to verify indian government-issued identity documents.</li>
+          <li>developed an anti-forgery application using doctr, tensorflow, and keras with pixel analysis and metadata verification.</li>
+          <li>designed and tested apis with postman, including steganography and noise consistency checks.</li>
+        </ul>
+
+        <h3 class="essay-section-title">4. software development intern — cumulus systems, hitachi</h3>
+        <ul class="phase-list">
+          <li>automated log report analysis for the mars (measure analyze recommend solve) analytics engine.</li>
+          <li>wrote 1,000+ lines of java using posix regex and apache poi to process 15,000+ log files into excel visualizations.</li>
+          <li>improved log analysis accuracy by 20% and reduced troubleshooting time by 15%.</li>
+        </ul>
+
+        <h3 class="essay-section-title">5. corporate card associate — uc san diego business and financial services</h3>
+        <ul class="phase-list">
+          <li>administered the us bank database and facilitated data sourcing in us bank's access online portal.</li>
+          <li>troubleshot 20+ issues daily; led training sessions reducing user errors by 15%.</li>
+          <li>optimized support workflows, improving response time efficiency by 18% via sap concur, oracle financial cloud, and servicenow.</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <button class="theme-toggle" id="theme-toggle" type="button">dark</button>
+      <div class="footer-meta" id="san-diego-time" aria-live="polite"></div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hello!</title>
+  <meta name="description" content="Siddharth Mundra — computer science student at UC San Diego.">
+  <script>
+    (function () {
+      try {
+        const storedTheme = localStorage.getItem('siddharthmundra-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', storedTheme || (prefersDark ? 'dark' : 'light'));
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="copy-email.js"></script>
+  <script defer src="site.js"></script>
+</head>
+<body class="lowercase-page">
+  <div class="container home-container">
+    <header>
+      <div class="identity">
+        <h1><a class="site-title" href="./">siddharth mundra</a></h1>
+      </div>
+      <nav class="header-links" aria-label="site links">
+        <a class="header-meta-link" href="projects/">projects</a>
+        <a class="header-meta-link" href="experience/">experience</a>
+        <a class="header-meta-link" href="https://drive.google.com/file/d/1jhIeRP569TJj_PVuRLF6QhxVRokpYr8p/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
+        <a class="header-meta-link" href="https://github.com/SiddharthMundra" target="_blank" rel="noopener noreferrer">gh</a>
+        <a class="header-meta-link" href="https://www.linkedin.com/in/siddharthmundra04" target="_blank" rel="noopener noreferrer">li</a>
+        <a class="header-meta-link" href="https://stackoverflow.com/users/16408088/siddharth-mundra" target="_blank" rel="noopener noreferrer">so</a>
+        <button class="header-meta-link email-copy" type="button" data-copy-email="smundra@ucsd.edu" data-copy-label="email" data-copy-success-label="copied!" data-copy-success-aria-label="email copied to clipboard" aria-label="copy email address" aria-live="polite">email</button>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <p>
+          currently an undergraduate at uc san diego studying computer science and minoring in finance.
+          i'm interested in
+          <button class="inline-trigger" type="button" aria-expanded="false" aria-controls="ml-note">machine learning</button>,
+          automation, and building efficient software.
+        </p>
+        <p class="inline-note" id="ml-note" aria-hidden="true">
+          my work spans prompt engineering, rag systems, web scraping pipelines, and full-stack app development.
+        </p>
+        <p>
+          most of my time right now is spent at
+          <button class="inline-trigger" type="button" aria-expanded="false" aria-controls="geocon-note">geocon</button>,
+          where i'm the lead ai/ml/automation engineer building an internal chatbot called geogpt.
+        </p>
+        <p class="inline-note" id="geocon-note" aria-hidden="true">
+          at geocon, a geotechnical consulting firm in san diego, i architected a production rag system over sharepoint data,
+          built contract comparison pipelines with azure ocr and gpt-4o, and automated business workflows with power automate.
+        </p>
+        <p>
+          some relevant
+          <button class="inline-trigger" type="button" aria-expanded="false" aria-controls="coursework-note">coursework</button>
+          includes operating systems, data center systems, computer security, cryptography, nlp, recommender systems, and machine learning in music.
+        </p>
+        <p class="inline-note" id="coursework-note" aria-hidden="true">
+          i've also taken safety in bitcoin, design of algorithms, and business finance — coursework that shaped how i think about systems, security, and product.
+        </p>
+        <p>
+          outside of work, i enjoy watching formula 1 and playing video games. you can find the source code to my projects on
+          <a class="inline-link" href="https://github.com/SiddharthMundra" target="_blank" rel="noopener noreferrer">github</a>.
+        </p>
+      </section>
+    </main>
+    <figure class="content-image">
+      <img src="assets/Photo_SidMundra.jpg" alt="portrait of siddharth mundra." loading="lazy" decoding="async">
+    </figure>
+    <footer>
+      <button class="theme-toggle" id="theme-toggle" type="button">dark</button>
+      <div class="footer-meta" id="san-diego-time" aria-live="polite"></div>
+    </footer>
+  </div>
+</body>
+</html>

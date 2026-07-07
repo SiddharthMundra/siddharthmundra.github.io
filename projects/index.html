@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>projects / siddharth mundra</title>
+  <script>
+    (function () {
+      try {
+        const storedTheme = localStorage.getItem('siddharthmundra-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-theme', storedTheme || (prefersDark ? 'dark' : 'light'));
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../copy-email.js"></script>
+  <script defer src="../site.js"></script>
+</head>
+<body class="lowercase-page writing-page">
+  <div class="container writing-container">
+    <header>
+      <div class="identity">
+        <h1><a class="site-title" href="../">siddharth mundra</a></h1>
+      </div>
+      <nav class="header-links" aria-label="site links">
+        <a class="header-meta-link" href="../projects/">projects</a>
+        <a class="header-meta-link" href="../experience/">experience</a>
+        <a class="header-meta-link" href="https://drive.google.com/file/d/1jhIeRP569TJj_PVuRLF6QhxVRokpYr8p/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
+        <a class="header-meta-link" href="https://github.com/SiddharthMundra" target="_blank" rel="noopener noreferrer">gh</a>
+        <a class="header-meta-link" href="https://www.linkedin.com/in/siddharthmundra04" target="_blank" rel="noopener noreferrer">li</a>
+        <a class="header-meta-link" href="https://stackoverflow.com/users/16408088/siddharth-mundra" target="_blank" rel="noopener noreferrer">so</a>
+        <button class="header-meta-link email-copy" type="button" data-copy-email="smundra@ucsd.edu" data-copy-label="email" data-copy-success-label="copied!" data-copy-success-aria-label="email copied to clipboard" aria-label="copy email address" aria-live="polite">email</button>
+      </nav>
+    </header>
+    <main>
+      <section class="writing-index markdown-content">
+        <h2 class="project-title writing-heading">projects</h2>
+
+        <h3 class="essay-section-title">1. spoilerdetector — automatic spoiler detection in book reviews</h3>
+        <p class="essay-note">machine learning</p>
+        <p>as someone who loves reading, i get frustrated when a book review accidentally includes a spoiler. i developed spoilerdetector to automatically identify and filter spoilers in book reviews. <a class="inline-link" href="https://drive.google.com/file/d/1X81NztwRfwClCkgrcK9Y3t8zylCXeLUS/view?usp=sharing" target="_blank" rel="noopener noreferrer">read the paper</a>. <a class="inline-link" href="https://github.com/SiddharthMundra/SpoilerShield/tree/main" target="_blank" rel="noopener noreferrer">github</a>.</p>
+        <ul class="phase-list">
+          <li>used the <a class="inline-link" href="https://www.kaggle.com/datasets/pypiahmad/goodreads-book-reviews?resource=download" target="_blank" rel="noopener noreferrer">goodreads book reviews dataset</a> with 2.5m+ annotated reviews.</li>
+          <li>implemented keyword, bag-of-words, and logistic regression baselines.</li>
+          <li>developed a distilbert transformer model with regularization and class balancing.</li>
+          <li>evaluated with precision, fpr, fnr, and roc auc.</li>
+        </ul>
+
+        <h3 class="essay-section-title">2. quadspeaker — twitter bot</h3>
+        <p class="essay-note">web scraping + machine learning</p>
+        <p>a twitter bot that posts personalized news from cnn, bbc, and al-jazeera with openai-enhanced headlines. <a class="inline-link" href="https://github.com/SiddharthMundra/QUADspeaker" target="_blank" rel="noopener noreferrer">github</a>.</p>
+        <ul class="phase-list">
+          <li>built with tweepy api, posting up to 50 times daily with tailored content.</li>
+          <li>integrated openai api for headline paraphrasing and engagement.</li>
+          <li>used python's schedule library with robust logging and deduplication.</li>
+        </ul>
+
+        <h3 class="essay-section-title">3. ai powered recipe app</h3>
+        <p class="essay-note">ios + backend</p>
+        <p>an ios app where you enter leftovers and get ai-generated recipes with voice input and dalle-enhanced previews.</p>
+        <ul class="phase-list">
+          <li>swift + swiftui frontend with speech recognition and openai api integration.</li>
+          <li>fastapi + uvicorn backend with async handling and sql user management.</li>
+          <li>delivers tailored recipes and image previews in under 10 seconds.</li>
+        </ul>
+
+        <h3 class="essay-section-title">4. neural composer — symbolic music generation</h3>
+        <p class="essay-note">machine learning</p>
+        <p>a transformer decoder trained on the nottingham midi dataset to generate folk melodies from scratch.</p>
+        <ul class="phase-list">
+          <li>tokenized midi with prettymidi into note-on/off, velocity, and time-shift events.</li>
+          <li>6-layer transformer decoder (512-dim, 8 heads, rotary embeddings) via x-transformers.</li>
+          <li>achieved ~95% train and ~90% validation token-level accuracy.</li>
+          <li>generated new melodies with nucleus sampling (top-p, temperature=0.9).</li>
+        </ul>
+
+        <h3 class="essay-section-title">5. virtualis nutrix — online nurse</h3>
+        <p class="essay-note">app development</p>
+        <p>a flutter app built during lockdown to help elderly users with medicine, water, and meal reminders. <a class="inline-link" href="https://github.com/SiddharthMundra/Virtualis-Nutrix-Online-Nurse" target="_blank" rel="noopener noreferrer">github</a>.</p>
+        <ul class="phase-list">
+          <li>simple ui with calendar and clock integration for reminders.</li>
+          <li>firebase backend with secure login and two-factor authentication.</li>
+          <li>ci/cd pipeline with gitlab for automated testing and deployment.</li>
+        </ul>
+
+        <h3 class="essay-section-title">6. developer journal</h3>
+        <p class="essay-note">web development</p>
+        <p>a developer logger built as a co-lead project in a software engineering class — top 3 of 35 groups. <a class="inline-link" href="https://github.com/SiddharthMundra/Developer-Journal" target="_blank" rel="noopener noreferrer">github</a>.</p>
+        <ul class="phase-list">
+          <li>full-stack react app with auto-saving journal entries.</li>
+          <li>ci/cd with e2e, dry run, and unit testing via git actions.</li>
+        </ul>
+
+        <h3 class="essay-section-title">7. autonomous robotics car</h3>
+        <p class="essay-note">ros2 + computer vision</p>
+        <p>a self-driving car on nvidia jetson nano with camera and lidar, implementing visual slam for the final project.</p>
+        <ul class="phase-list">
+          <li>ros 2 multi-sensor fusion with depthai oak-d pro and lidar.</li>
+          <li>cnn perception models for lane detection and path planning with pid control.</li>
+          <li>vslam via rtab-map for indoor and outdoor navigation.</li>
+        </ul>
+
+        <h3 class="essay-section-title">8. huffman encoding tree — file compressor</h3>
+        <p class="essay-note">data structures</p>
+        <p>a huffman encoding compressor and decompressor with bit-packing for efficient storage. source code unavailable (class project).</p>
+        <ul class="phase-list">
+          <li>priority queue-based huffman tree for lossless compression.</li>
+          <li>3-bit integer bit-packing for compact representation.</li>
+        </ul>
+
+        <h3 class="essay-section-title">9. f1 world-view</h3>
+        <p class="essay-note">web development</p>
+        <p>an interactive react map of every f1 driver and circuit with custom scraped data. <a class="inline-link" href="https://github.com/SiddharthMundra/RaceNation-F1-World-View" target="_blank" rel="noopener noreferrer">github</a>. <a class="inline-link" href="https://poetic-cheesecake-a45473.netlify.app" target="_blank" rel="noopener noreferrer">live site</a>.</p>
+        <ul class="phase-list">
+          <li>custom web scraper to build a dataset of drivers, circuits, and winners.</li>
+          <li>react frontend with interactive map visualization.</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <button class="theme-toggle" id="theme-toggle" type="button">dark</button>
+      <div class="footer-meta" id="san-diego-time" aria-live="polite"></div>
+    </footer>
+  </div>
+</body>
+</html>
